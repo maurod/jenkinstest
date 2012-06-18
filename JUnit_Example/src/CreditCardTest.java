@@ -16,9 +16,9 @@ public class CreditCardTest {
 	public void testMakePayment() {
 		CreditCard cc = new CreditCard(1234567890,"XYZ",12000);  
 		  //make purchase  
-		  cc.purchase(5000);  
+		  cc.purchase(6000);  
 		  //makePayment 2000  
-		  cc.makePayment(2000);  
+		  cc.makePayment(3000);  
 		  //checkBalance  
 		  assertTrue(cc.getAvailableBal()==9000);  
 	}
