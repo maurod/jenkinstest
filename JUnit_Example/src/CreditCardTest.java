@@ -18,9 +18,9 @@ public class CreditCardTest {
 		  //make purchase  
 		  cc.purchase(6000);  
 		  //makePayment 2000  
-		  cc.makePayment(3000);  
+		  cc.makePayment(2000);  
 		  //checkBalance  
-		  assertTrue(cc.getAvailableBal()==9000);  
+		  assertTrue(cc.getAvailableBal()==8000);  
 	}
 
 	@Test
