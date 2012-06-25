@@ -20,7 +20,7 @@ public class CreditCardTest {
 		  //makePayment 2000  
 		  cc.makePayment(2000);  
 		  //checkBalance  
-		  assertTrue(cc.getAvailableBal()==8000);  
+		  assertTrue(cc.getAvailableBal()==9000);  
 	}
 
 	@Test
