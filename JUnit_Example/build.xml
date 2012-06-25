@@ -65,7 +65,7 @@
 	
     <target name="CreditCardTest" description="Execute unit tests" depends="build-project">   
         <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="true" failureproperty="junit.failure">
+        <junit fork="yes" printsummary="true" haltonfailure="true" failureproperty="junit.failure">
             <formatter type="xml"/>
             <test name="CreditCardTest" todir="${junit.output.dir}"/>
             <classpath refid="JUnit_Example.classpath"/>
